@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto KOF 15</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho"> 
+        <img class="logo" src="./src/imagens/card-KOF_logo.webp" alt="Logo KOF XV">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="kyo" data-name="Kyo" data-description=" Kyo Kusanagi é o personagem principal da
+                Orochi Saga em The King of Fighters. Ele foi introduzido primeiramente em The King of Fighters '94
+                como o líder do Japan team. Ele é rival de Iori Yagami e K'">
+                    <img src="./src/imagens/card-kyo.jpg" alt="Personagem kyo">
+                </li>
+                <li class="personagem" id="chizuru" data-name="Chizuru" data-description="Maki, sua irmã mais velha, seria a protetora do Selo de Orochi. Chizuru, como sua irmã, sempre foi treinada para saber lidar com o selo e as ilusões que o Espelho Yata proporcionam">
+                    <img src="./src/imagens/card-chizuru.jpg" alt="Personagem chizuru">
+                </li>
+                <li class="personagem" id="luong" data-name="Luong" data-description="Luong (ルオン) é um personagem da série The King of Fighters. Ela foi introduzida em The King of Fighters XIV como amante de Gang-il e nova integrante do Time Kim. Seu apelido oficial é A Beleza Encantada.">
+                    <img src="./src/imagens/card-luong.jpg" alt="Personagem luong">
+                </li>
+                <li class="personagem" id="mary" data-name="Mary" data-description="Blue Mary é praticante da arte marcial soviética chamada Sambo. Chaves de braço, joelhadas e cotoveladas são algumas das suas artimanhas no campo de batalha.">
+                    <img src="./src/imagens/card-mary.jpg" alt="Personagem mary">
+                </li>
+                <li class="personagem" id="ryo" data-name='Ryo' data-description="Ryo é o filho e o dono dos dojos de Takuma Sakazaki, da escola Kyokugenryu de karatê. Quando criança, Ryo passava muito tempo treinando seu corpo e, eventualmente, tornou-se tão poderoso que foi apelidado de O Dragão Invencível">
+                    <img src="./src/imagens/card-ryo.jpg" alt="Personagem ryo">
+                </li>
+                <li class="personagem" id="terry" data-name='Terry' data-description="Desde quando era um garoto, ele tinha que sobreviver as ameaças das ruas perigosas de Southtown. Terry e seu irmão mais novo, Andy, viviam felizes com seu pai Jeff Bogard, considerado o melhor lutador de Southtown">
+                    <img src="./src/imagens/card-terry.jpg" alt="Personagem terry">
+                </li>
+                <li class="personagem" id="vanessa" data-name='Vanessa' data-description="Vanessa vive uma vida dupla entre ser dona de casa e uma agente mercenária. Ela é muito habilidosa no boxe e é capaz de nocautear os seus adversários com facilidade.">
+                    <img src="./src/imagens/card-vanessa.jpg" alt="Personagem vanessa">
+                </li>
+                <li class="personagem" id="yagami" data-name='Yagami' data-description="O clã Yagami é um dos três dos quais foram confiados o Tesouro Sagrado. Como descendente, Iori tem acesso a habilidades que permitem que ele destrua seus inimigos, além de poderosas chamas de ametistas garantidas por seu conhecimento do Estilo Yagami de Artes Marciais Antigas">
+                    <img src="./src/imagens/card-yagami.jpg" alt="Personagem yagami">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-kyo.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Kyo</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Kyo Kusanagi é o personagem principal da
+                    Orochi Saga em The King of Fighters. Ele foi introduzido primeiramente em The King of Fighters '94
+                    como o líder do Japan team. Ele é rival de Iori Yagami e K'.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
